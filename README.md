@@ -93,10 +93,6 @@ def astar(graph, start, goal):
 - `closed_set` mencegah memeriksa node yang sudah dikunjungi.
 - Untuk setiap node tetangga, biaya (`cost`) dihitung berdasarkan `jarak`.
 
-⚠️ Belum ada heuristik (`h(n)`), sehingga ini **belum benar-benar A\***, masih mirip **Uniform Cost Search**.
-
----
-
 ### 🔹 Fungsi Mengambil Jenis Kendaraan dari Jalur
 ```python
 def ambil_info_kendaraan(path, graph):
@@ -118,7 +114,7 @@ def show_map_with_ors(path, mode_kendaraan):
         return...
 ```
 
-**Analisis (meski belum lengkap):**
+**Analisis:**
 - Akan menampilkan jalur yang ditemukan dalam bentuk peta (pakai `folium`).
 - `mode_kendaraan` digunakan untuk memilih mode rute dari OpenRouteService (jalan kaki, mobil, sepeda, dll).
 - Biasanya akan:
@@ -128,6 +124,3 @@ def show_map_with_ors(path, mode_kendaraan):
 
 ---
 
-Kalau kamu lanjutkan kode setelah `show_map_with_ors(path, mode_kendaraan)`, aku bisa bantu analisis juga sampai akhir aplikasinya.
-
-Kamu mau lanjut analisis ke bagian GUI (`tkinter`) atau bagian peta dulu?
