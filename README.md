@@ -124,3 +124,14 @@ def show_map_with_ors(path, mode_kendaraan):
 
 ---
 
+
+### Anggota kelompok
+
+1. Refki Andreas Pratama
+2. Habib Edler
+3. Rahman Firdaus Ilaihi
+4. Abim Bintang Audio
+5. Ajis Saputra Hidayah 
+
+
+
